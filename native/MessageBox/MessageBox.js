@@ -22,6 +22,7 @@ export class MessageBox extends Component {
         var positionCls = [
             styles.rceMbox,
             this.props.position === 'right' && styles.rceMboxRight,
+            this.props.contentStyle || {}
         ];
         var thatAbsoluteTime = this.props.type !== 'text' && this.props.type !== 'file' && !(this.props.type === 'location' && this.props.text);
 
