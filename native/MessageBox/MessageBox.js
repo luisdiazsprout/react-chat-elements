@@ -27,7 +27,7 @@ export class MessageBox extends Component {
 
         return (
             <View
-                style={styles.rceContainerMbox}
+                style={{...styles.rceContainerMbox, ...this.props.style}}
                 onClick={this.props.onClick}>
 
                 {
