@@ -14,9 +14,9 @@ export default StyleSheet.create({
         backgroundColor: 'white',
         borderRadius: 5,
         // boxShadow: 1px 1px 1px 1px rgba(0, 0, 0, .2),
-        borderTopLeftRadius: 0,
-        marginLeft: 20,
-        marginRight: 5,
+        // borderTopLeftRadius: 0,
+        marginLeft: 5,
+        marginRight: 20,
         marginTop: 3,
         flexDirection: 'column',
         marginBottom: 3,
@@ -34,10 +34,10 @@ export default StyleSheet.create({
     },
 
     rceMboxRight: {
-        marginLeft: 5,
-        marginRight: 20,
-        borderTopRightRadius: 0,
-        borderTopLeftRadius: 5,
+        marginLeft: 20,
+        marginRight: 5,
+        // borderTopRightRadius: 0,
+        // borderTopLeftRadius: 5,
     },
 
     rceMboxText: {
